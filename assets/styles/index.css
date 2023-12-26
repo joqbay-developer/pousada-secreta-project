@@ -49,7 +49,8 @@ body {
 }
 
 .header__logo__container__title h1 {
-    font-size: 24px;
+    font-family: 'Carattere', cursive;
+    font-size: 28px;
 }
 
 nav {
@@ -92,7 +93,7 @@ nav a:hover {
 
 .banner__container__header {
     background-color: rgba(73, 153, 124, 0.8);
-    padding: 20px 40px;
+    padding: 40px;
     border-radius: 4px;
     height: 40%;
     display: flex;
@@ -103,9 +104,11 @@ nav a:hover {
 }
 
 .banner__container__header h2 {
-    font-size: 90px;
+    font-family: 'Carattere', cursive;
+    font-weight: normal;
+    font-size: 180px;
     letter-spacing: 1px;
-
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 
