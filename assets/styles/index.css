@@ -116,6 +116,7 @@ nav a:hover {
     font-size: 48px;
     letter-spacing: 1px;
     font-style: italic;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* ------- banner section ------- */
