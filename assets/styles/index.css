@@ -92,6 +92,8 @@ nav a:hover {
 }
 
 .banner__container__header {
+    width: 100%;
+    max-width: calc(1400px - 4%);
     background-color: rgba(73, 153, 124, 0.8);
     padding: 40px;
     border-radius: 4px;
@@ -101,6 +103,7 @@ nav a:hover {
     align-items: center;
     justify-content: space-evenly;
     color: #fff;
+    border: 1px solid #fff;
 }
 
 .banner__container__header h2 {
@@ -120,3 +123,231 @@ nav a:hover {
 }
 
 /* ------- banner section ------- */
+
+/* ------- welcome section ------- */
+
+
+
+.welcome__container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.welcome__container__header {
+    padding: 8% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.welcome__container__header h3 {
+    font-size: 78px;
+    font-family: 'Carattere', cursive;
+}
+
+.welcome__container__header p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.welcome__images__container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.welcome__images__container__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 2px solid black;
+    padding-bottom: 30px;
+}
+
+.welcome__images__img__container img {
+    border-radius: 4px;
+    transition: .3s ease;
+}
+
+.welcome__images__img__container img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 4px 4px 8px 0 rgba(73, 153, 124, 0.5);
+}
+
+.welcome__link__container a {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    transition: .3s ease;
+}
+
+
+.welcome__link__container a:hover {
+    padding: 10px 18px;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 4px #49997c inset;
+}
+
+
+/* ------- welcome section ------- */
+
+
+/* ------- rota section ------- */
+
+/* .rota {
+    min-height: 100vh;
+
+} */
+
+.rota__container {
+    width: 100%;
+}
+
+.rota__container__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 4% 0;
+}
+
+.rota__container__header h3 {
+    font-size: 78px;
+    font-family: 'Carattere', cursive;
+}
+
+.rota__container__header p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.rota__iframe__container iframe {
+    width: 100%;
+    height: 50vh;
+    border-radius: 4px;
+}
+
+/* ------- rota section ------- */
+
+
+/* ------- about section ------- */
+
+.about {
+    min-height: 75vh;
+
+}
+
+.about__container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.about__container__header {
+    padding: 4% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px
+}
+
+.about__container__header h3 {
+    font-size: 78px;
+    font-family: 'Carattere', cursive;
+}
+
+.about__container__header p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.about__container__boxes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4% 0;
+}
+
+.about__container__boxes__content {
+    display: flex;
+    flex: 1 1 500px;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.about__container__boxes__content header {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about__container__boxes__content header h4 {
+    font-size: 20px;
+}
+
+.about__container__boxes__content header p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.about__container__boxes__image {
+    height: 150px;
+    width: 20%;
+}
+
+.about__container__boxes__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* ------- about section ------- */
+
+
+/* ------- footer section ------- */
+
+footer {
+    background-color: #49997c;
+    color: #fff;
+    min-height: 25vh;
+
+}
+
+.footer__container {
+    height: 200px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+.footer__container__allBoxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__container__boxes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+/* ------- footer section ------- */
