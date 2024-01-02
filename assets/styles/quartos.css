@@ -90,19 +90,19 @@ nav a:hover {
 
 /* ------- banner section ------- */
 
-/* ------- welcome section ------- */
+/* ------- quartos section ------- */
 
 
 
-.welcome__container {
+.quartos__container {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 2%;
 }
 
-.welcome__container__header {
-    padding: 8% 0;
+.quartos__container__header {
+    padding: 4% 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,44 +110,43 @@ nav a:hover {
     gap: 30px;
 }
 
-.welcome__container__header h3 {
+.quartos__container__header h3 {
     font-size: 78px;
     font-family: 'Carattere', cursive;
 }
 
-.welcome__container__header p {
+.quartos__container__header p {
     font-size: 18px;
     letter-spacing: 1px;
 }
 
-.welcome__images__container {
+.quartos__images__container {
     display: flex;
     align-items: center;
     gap: 30px;
     
 }
 
-.welcome__images__container__content {
+.quartos__images__container__content {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    border-bottom: 2px solid black;
-    padding-bottom: 30px;
+    padding-bottom: 4%;
 }
 
-.welcome__images__img__container img {
+.quartos__images__img__container img {
     border-radius: 4px;
     transition: .3s ease;
 }
 
-.welcome__images__img__container img:hover {
+.quartos__images__img__container img:hover {
     cursor: pointer;
     transform: scale(1.1);
     box-shadow: 4px 4px 8px 0 rgba(73, 153, 124, 0.5);
 }
 
-.welcome__link__container a {
+.quartos__link__container a {
     font-size: 20px;
     text-transform: uppercase;
     color: black;
@@ -155,14 +154,35 @@ nav a:hover {
 }
 
 
-.welcome__link__container a:hover {
+.quartos__link__container a:hover {
     padding: 10px 18px;
     border-radius: 4px;
     box-shadow: 0 0 4px 4px #49997c inset;
 }
 
+.quartos__items__list__container {
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 4%;
+}
 
-/* ------- welcome section ------- */
+.quartos__items__list__container header {
+    text-align: center;
+}
+
+.quartos__items__list__container__text ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+
+/* ------- quartos section ------- */
 
 
 
@@ -174,7 +194,7 @@ nav a:hover {
 footer {
     background-color: #49997c;
     color: #fff;
-    min-height: 25vh;
+    min-height: 20vh;
 
 }
 
@@ -199,6 +219,10 @@ footer {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.footer__container__boxes img {
+    width: 40px;
 }
 
 .footer__container__telephone__text__container a, .footer__container__reserve__text__container a {
