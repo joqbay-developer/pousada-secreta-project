@@ -28,14 +28,14 @@
 Esse é mais um projeto desenvolvido no curso Full-Stack JS da DevMedia.
 O objetivo é ganhar mais autonomia para criar sites em HTML & CSS (e também JavaScript, pois estou inserindo, aos poucos, alguns scripts para ficar mais prático para o usuário, mesmo ainda a galera não ter entrado no módulo JS rsrsrs 😁), que possua tabelas e navegação entre páginas.
 
-Para isso, foi desenvolvido uma projeto web que contém duas páginas.
-Uma delas é a página `Home - index.html` e a outra é a página `tabela-de-precos`.
+Para isso, foi desenvolvido mais um projeto web que contém duas páginas.
+Uma delas é a página `Home - index.html` e a outra é a página `quartos.html`.
 
-Para completar a navegação, o projeto ainda possui links diretos para a mesma página na seção `informacoes`, `planos` e `contato`.
+Para completar a navegação, o projeto ainda possui links diretos para a mesma página na seção `sobre` e `rota`. A págia `Quartos` designa o usuário para a página especifica de quartos.
 
-Na página ***tabela-de-precos*** possui apenas dois links de navegação, onde uma deles, `Home`, volta para a página `index.html`.
+Na página ***Quartos*** possui dois links de navegação (logo e `Home`), onde voltam para a página `index.html`.
 
-Como o objetivo é ter autonomia com todo o conteúdo desse módulo para criar tabelas e usabilidade para nevegação, as duas tabelas possuem tabelas e navegação.
+Como o objetivo é ter autonomia, esse projeto tem o intuíto de exercitar o desenvolvimento do layout utilizando o ***FlexBox***, dentre outros recursos que já foram aprendidos.
 
 Ah, só para deixar enfatizado, estou inserindo no projeto todos os conteúdo aprendidos até o momento (HTML E CSS). O JavaScript é um plus, pois ainda não estramos a fundo na linguagem. 😅
 
