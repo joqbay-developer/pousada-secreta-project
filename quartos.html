@@ -28,13 +28,25 @@
             <nav>
                 <a href="index.html#about">Sobre</a>
                 <a href="index.html#rout">Rota</a>
-                <a href="#bedrooms">Quartos</a>
+                <div class="dropdown">
+                    <a href="#bedrooms">Quartos</a>
+                    <div class="dropdown__content">
+                        <a href="#quarto-de-solteiro">Solteiro</a>
+                        <a href="#quarto-de-casal">Casal</a>
+                        <a href="#quarto-de-familia">Família</a>
+                    </div>
+                </div>
             </nav>
         </div> <!-- header__container -->
     </header> <!-- header (Topo) -->
 
     <main> <!-- main (Conteúdo) -->
         <section class="banner"> <!-- banner -->
+            <div class="banner__container">
+                <header>
+                    <h2>Nossos Quartos</h2>
+                </header>
+            </div>
         </section> <!-- banner -->
 
         <section id="quarto-de-solteiro" class="quartos-de-solteiro"> <!-- quartos-de-solteiro -->
@@ -80,7 +92,7 @@
             </div> <!-- quartos-de-solteiro__container -->
         </section> <!-- quartos-de-solteiro -->
 
-
+        <div class="divider"></div>
 
         <section id="quarto-de-casal" class="quarto-de-casal"> <!-- quartos-de-solteiro -->
             <div class="quartos__container"> <!-- quartos__container -->
@@ -125,9 +137,9 @@
             </div> <!-- quartos__container -->
         </section> <!-- quartos-de-solteiro -->
 
+        <div class="divider"></div>
 
-
-        <section id="quarto-de-familia" class="quarto-de-casal"> <!-- quartos-de-familia -->
+        <section id="quarto-de-familia" class="quarto-de-familia"> <!-- quartos-de-familia -->
             <div class="quartos__container"> <!-- quartos__container -->
                 <header class="quartos__container__header">
                     <h3>Quarto de Família</h3>
@@ -151,6 +163,7 @@
                         </div> 
                     </div>                               
                 </div> <!-- quartos__images__container -->
+
 
                 <div class="quartos__items__list__container">
                     <header>
