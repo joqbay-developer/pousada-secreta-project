@@ -51,6 +51,7 @@ body {
 .header__logo__container__title h1 {
     font-family: 'Carattere', cursive;
     font-size: 28px;
+    color: #1c1b1b;
 }
 
 nav {
@@ -59,14 +60,45 @@ nav {
 }
 
 nav a {
-    color: black;
+    color: #1c1b1b;
     letter-spacing: 1px;
     text-transform: uppercase;
     transition: 1s ease;
 }
 
-nav a:hover {
-    border-bottom: 1px solid black;
+/* nav a:hover {
+    border-bottom: 1px solid #1c1b1b;
+} */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown__content a {
+    font-size: 12px;
+    display: block;
+    padding: 12px 16px;
+
+}
+
+.dropdown__content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+.dropdown__content a:hover {
+    background-color: #49997c;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown__content {
+    display: block;
 }
 
 /* ------- header ------- */
@@ -76,14 +108,38 @@ nav a:hover {
 
 .banner {
     width: 100%;
-    height: 20vh;
-    background-image: url('/assets/images/img-fundo.jpg');
+    height: calc(100vh - 74px);
+    background-image: url('/assets/images/banner-quartos.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.banner__container {
+    width: 100%;
+    max-width: calc(1400px - 4%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 4px;
+    height: 40%;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner header h2 {
+   font-family: 'Carattere', cursive;
+    font-weight: normal;
+    font-size: 180px;
+    letter-spacing: 1px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -113,6 +169,8 @@ nav a:hover {
 .quartos__container__header h3 {
     font-size: 78px;
     font-family: 'Carattere', cursive;
+    color: #1c1b1b;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .quartos__container__header p {
@@ -149,7 +207,7 @@ nav a:hover {
 .quartos__link__container a {
     font-size: 20px;
     text-transform: uppercase;
-    color: black;
+    color: #1c1b1b;
     transition: .3s ease;
 }
 
@@ -179,6 +237,21 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 20px;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(73, 153, 124, 0.1);
+    box-shadow: 4px 4px 8px 0 rgba(73, 153, 124, 0.5);
+}
+
+.quartos-de-solteiro {
+    min-height: 50vh;
+}
+
+.quarto-de-familia {
+    min-height: 80vh;
 }
 
 
