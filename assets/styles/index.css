@@ -71,9 +71,9 @@ nav a {
     transition: 1s ease;
 }
 
-nav a:hover {
+/* nav a:hover {
     border-bottom: 1px solid #1c1b1b;
-}
+} */
 
 /* ------- header ------- */
 
