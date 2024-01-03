@@ -51,6 +51,12 @@ body {
 .header__logo__container__title h1 {
     font-family: 'Carattere', cursive;
     font-size: 28px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.header__logo__container__title a {
+    color: #1c1b1b;
 }
 
 nav {
@@ -59,14 +65,14 @@ nav {
 }
 
 nav a {
-    color: black;
+    color: #1c1b1b;
     letter-spacing: 1px;
     text-transform: uppercase;
     transition: 1s ease;
 }
 
 nav a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #1c1b1b;
 }
 
 /* ------- header ------- */
@@ -86,6 +92,7 @@ nav a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -147,6 +154,7 @@ nav a:hover {
 .welcome__container__header h3 {
     font-size: 78px;
     font-family: 'Carattere', cursive;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .welcome__container__header p {
@@ -156,12 +164,14 @@ nav a:hover {
 
 .welcome__images__container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 30px;
     
 }
 
 .welcome__images__container__content {
+    flex: 1 1 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -221,6 +231,7 @@ nav a:hover {
 .rota__container__header h3 {
     font-size: 78px;
     font-family: 'Carattere', cursive;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .rota__container__header p {
@@ -262,6 +273,7 @@ nav a:hover {
 .about__container__header h3 {
     font-size: 78px;
     font-family: 'Carattere', cursive;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .about__container__header p {
@@ -273,7 +285,7 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     padding: 2% 0 6% 0;
-    margin-right: -2%;
+    gap: 40px;
 }
 
 .about__container__boxes__content {
@@ -285,6 +297,7 @@ nav a:hover {
 }
 
 .about__container__boxes__content header {
+    flex: 1 1 300px;
     width: 75%;
     display: flex;
     flex-direction: column;
@@ -346,8 +359,11 @@ footer {
 .footer__container__boxes {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 10px;
 }
+
+
 
 .footer__container__boxes img {
     width: 40px;
@@ -375,7 +391,7 @@ footer {
 .line {
     width: 100%;
     height: 1px;
-    background-color: black;
+    background-color: #000000;
     margin: 20px 0 20px 0;
 }
 
