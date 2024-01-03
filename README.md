@@ -37,9 +37,13 @@ Na página ***Quartos*** possui dois links de navegação (logo e `Home`), onde 
 
 Como o objetivo é ter autonomia, esse projeto tem o intuíto de exercitar o desenvolvimento do layout utilizando o ***FlexBox***, dentre outros recursos que já foram aprendidos.
 
+Além disso, na página `Quartos` foi incrementado um dropdown, utilizando recursos de position.
+
 Ah, só para deixar enfatizado, estou inserindo no projeto todos os conteúdo aprendidos até o momento (HTML E CSS). O JavaScript é um plus, pois ainda não estramos a fundo na linguagem. 😅
 
-Porém, a responsividade vai ficar para mais adiante. Ou seja, esse projeto vai ser refatorado para implementar a responsidade, quando esta ser pauta do módulo.
+Logo, o recurso de smooth para scroll da página foi adicionada com o JavaScript.
+
+A responsividade vai ficar para mais adiante. Ou seja, esse projeto vai ser refatorado para implementar a responsidade, quando esta ser pauta do curso.
 
 
 ## Tecnologias e Design
